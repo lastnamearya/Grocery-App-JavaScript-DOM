@@ -1,8 +1,14 @@
-// Store the first list item in a variable
-var firstItem = document.getElementById('one');
+// Create a new element and store it in a varible
+var newEl = document.createElement('li');
 
-// Get the content of the first list item
-var itemContent = firstItem.innerHTML;
+// Create a text node and store it in a varible
+var newText = document.createTextNode('quinoa');
 
-// Update the content of the first list item so it is a link
-firstItem.innerHTML = '<a href=\"http://example.org\">' + itemContent + '</a>';
+// Attach the new text node to the new element
+newEl.appendChild(newText);
+
+// Find the position where the new element should be added.
+var position = document.getElementsByTagName('ul')[0];
+
+// Insert the new element into its positon
+position.appendChild(newEl);
