@@ -1,8 +1,9 @@
-// First we get access to the child that we want to remove
-var removeEl = document.getElementsByTagName('li')[3];
+var firstItem = document.getElementById('one');
 
-// For deleting a child, we first need to know or access the parent first so we can use the dot notation and apply the remove child method
-var containerEl = removeEl.parentNode;
+if(firstItem.hasAttribute('class')) {
+  var attr = firstItem.getAttribute('class');
 
-// Here we remove the child from the parent by using .removeChild()
-containerEl.removeChild(removeEl);
+  // Add the Value of the attribute after the list
+  var el = document.getElementById('scriptResults');
+  el.innerHTML = '<p>The first item has a class name: ' + attr + '</p>';
+}
