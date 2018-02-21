@@ -1,7 +1,6 @@
-var hotItems = document.querySelectorAll('li.hot');
+var startItem = document.getElementById('two');
+var prevItem = startItem.previousElementSibling;
+var nextItem = startItem.nextElementSibling;
 
-if(hotItems.length > 0){
-  for(var i = 0; i < hotItems.length; i++){
-    hotItems[i].className = 'cool';
-  }
-}
+prevItem.className = 'complete';
+nextItem.className = 'cool';
