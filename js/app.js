@@ -1,5 +1,6 @@
-// Select the Element and store it in a variable
-var el = document.getElementById('one');
+var elements = document.getElementsByClassName('hot');
 
-// Change the Value of the class attribute
-el.className = 'cool';
+if (elements.length > 2){
+  var el = elements[2];
+  el.className = 'cool';
+}
