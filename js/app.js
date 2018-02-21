@@ -1,9 +1,5 @@
 var firstItem = document.getElementById('one');
+firstItem.className = 'complete';
 
-if(firstItem.hasAttribute('class')) {
-  var attr = firstItem.getAttribute('class');
-
-  // Add the Value of the attribute after the list
-  var el = document.getElementById('scriptResults');
-  el.innerHTML = '<p>The first item has a class name: ' + attr + '</p>';
-}
+var fourthItem = document.getElementById('four');
+fourthItem.setAttribute('class', 'cool');
