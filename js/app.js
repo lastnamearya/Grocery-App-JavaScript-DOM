@@ -1,14 +1,8 @@
-// Create a new element and store it in a varible
-var newEl = document.createElement('li');
+// First we get access to the child that we want to remove
+var removeEl = document.getElementsByTagName('li')[3];
 
-// Create a text node and store it in a varible
-var newText = document.createTextNode('quinoa');
+// For deleting a child, we first need to know or access the parent first so we can use the dot notation and apply the remove child method
+var containerEl = removeEl.parentNode;
 
-// Attach the new text node to the new element
-newEl.appendChild(newText);
-
-// Find the position where the new element should be added.
-var position = document.getElementsByTagName('ul')[0];
-
-// Insert the new element into its positon
-position.appendChild(newEl);
+// Here we remove the child from the parent by using .removeChild()
+containerEl.removeChild(removeEl);
