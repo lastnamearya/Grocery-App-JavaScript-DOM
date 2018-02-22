@@ -11,7 +11,7 @@ This involves looping through each of the '<li>' elements i.e my Shopping List I
 ## 3. Add the number of list items to the heading
 This involves four Steps
 
-1. Reading the content of the heading
-2. Counting the number of <li> elements in the page.
-3. Adding the number of items to the content of the heading
-4. Updting the heading with this new Content
+1. Reading the content of the heading.
+2. Counting the number of elements in the page.
+3. Adding the number of items to the content of the heading.
+4. Updating the heading with this new Content.
