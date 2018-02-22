@@ -6,7 +6,7 @@ This App brings together a selection of the DOM techniques to update the content
 Adding an item to the start of the list requires the use of a different method than adding an element to the end of list.
 
 ## 2. Set a Class Attribute on all Items
-This involves looping through each of the '<li>' elements i.e my Shopping List Items and updating the value of the class attribute to 'cool'.
+This involves looping through each of the elements i.e my Shopping List Items and updating the value of the class attribute to 'cool'.
 
 ## 3. Add the number of list items to the heading
 This involves four Steps
