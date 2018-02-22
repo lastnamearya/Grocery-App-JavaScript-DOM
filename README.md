@@ -15,3 +15,7 @@ This involves four Steps
 2. Counting the number of elements in the page.
 3. Adding the number of items to the content of the heading.
 4. Updating the heading with this new Content.
+
+[![Screen_Shot_2018-02-22_at_8.01.04_PM.png](https://s10.postimg.org/uxdtyfr09/Screen_Shot_2018-02-22_at_8.01.04_PM.png)](https://postimg.org/image/7j5umi92t/)
+
+Jigyasu Arya ~ lastnamearya
