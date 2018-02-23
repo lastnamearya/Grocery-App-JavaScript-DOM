@@ -1,5 +1,5 @@
-# Groceries Shopping List App
-I made this app in order to learn DOM Manipulation in plain vanilla.js. I made this app from scratch to strengthen my DOM Manipulation Skills.
+# [Groceries Shopping List App](https://lastnamearya.github.io/Grocery-App-JavaScript-DOM/)
+I made this [app](https://lastnamearya.github.io/Grocery-App-JavaScript-DOM/) in order to learn DOM Manipulation in plain vanilla.js. I made this app from scratch to strengthen my DOM Manipulation Skills.
 This App brings together a selection of the DOM techniques to update the contents of the List. It has three main aims:
 
 ## 1. Add a New Item to the Start and End of the List
